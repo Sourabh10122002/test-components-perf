@@ -1,0 +1,113 @@
+// Managed by iui. Do not edit manually.
+// Rebuilt automatically when the CLI validates the project.
+
+// Scanned asset bindings (static glyph imports)
+import "./assets/register-bound";
+
+// Component slot registrations
+import "./slots/slot-core.generated";
+import "./slots/slot-optional.generated";
+
+// Framework slot system — flag, icon, loader, etc. registrations run as side effects
+// when @inventive-ui/framework is first imported. No explicit registration needed here.
+import { SlotRenderer, useSlotRenderer } from "@inventive-ui/framework/slots";
+import slotManifest from "../slots.json";
+
+export type IUISlotType =
+  | "accordion"
+  | "alert"
+  | "anchor"
+  | "avatar"
+  | "avatar-group"
+  | "badge"
+  | "badge-counter"
+  | "badge-dot"
+  | "badge-label"
+  | "badge-status-indicator"
+  | "breadcrumb"
+  | "button"
+  | "button-menu"
+  | "button-split"
+  | "carousel"
+  | "cascader"
+  | "checkbox"
+  | "checkbox-card"
+  | "checkbox-group"
+  | "color-logo"
+  | "color-picker"
+  | "color-swatch"
+  | "datepicker"
+  | "divider"
+  | "drawer"
+  | "drawer-body"
+  | "drawer-float"
+  | "drawer-inline"
+  | "drawer-overlay"
+  | "dropdown"
+  | "emoji"
+  | "empty-state"
+  | "field"
+  | "file-type"
+  | "flag"
+  | "gridbox"
+  | "icon"
+  | "illustration"
+  | "info-tip"
+  | "infoTip"
+  | "infotip"
+  | "inline-message"
+  | "input"
+  | "input-card"
+  | "input-email"
+  | "input-number"
+  | "input-otp"
+  | "input-password"
+  | "input-range"
+  | "input-search"
+  | "input-tag"
+  | "input-text"
+  | "input-url"
+  | "kbd"
+  | "label"
+  | "label-float"
+  | "link"
+  | "list"
+  | "list-item"
+  | "listbox"
+  | "listbox-item"
+  | "loader"
+  | "logo"
+  | "menu"
+  | "modal"
+  | "pagination"
+  | "popover"
+  | "primary-action"
+  | "progress"
+  | "radio"
+  | "rating"
+  | "scroll-area"
+  | "secondary-action"
+  | "segmented-control"
+  | "select"
+  | "sidebar"
+  | "slider"
+  | "steps"
+  | "surface"
+  | "switch"
+  | "tabs"
+  | "tag"
+  | "tag-group"
+  | "tag-link"
+  | "tag-menu"
+  | "tag-split"
+  | "text"
+  | "textarea"
+  | "toast"
+  | "tooltip"
+  | "transfer"
+  | "tree"
+  | "trigger";
+
+export { SlotRenderer, useSlotRenderer };
+
+export const slots = slotManifest;

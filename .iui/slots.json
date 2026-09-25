@@ -1,0 +1,725 @@
+{
+  "kbd": {
+    "component": "kbd",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "tag": {
+    "component": "tag",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "color-swatch",
+      "emoji",
+      "file-type",
+      "flag",
+      "icon",
+      "kbd",
+      "loader",
+      "logo"
+    ]
+  },
+  "radio": {
+    "component": "radio",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "label"
+    ]
+  },
+  "link": {
+    "component": "link",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "color-swatch",
+      "emoji",
+      "file-type",
+      "flag",
+      "icon",
+      "kbd",
+      "loader",
+      "logo"
+    ]
+  },
+  "text": {
+    "component": "text",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "label": {
+    "component": "label",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "infoTip"
+    ]
+  },
+  "button": {
+    "component": "button",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "checkbox": {
+    "component": "checkbox",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "icon",
+      "inline-message",
+      "label"
+    ]
+  },
+  "switch": {
+    "component": "switch",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "icon",
+      "label",
+      "loader"
+    ]
+  },
+  "divider": {
+    "component": "divider",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "inline-message": {
+    "component": "inline-message",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "icon"
+    ]
+  },
+  "tooltip": {
+    "component": "tooltip",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "empty-state": {
+    "component": "empty-state",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "button",
+      "illustration",
+      "link",
+      "text"
+    ]
+  },
+  "scroll-area": {
+    "component": "scroll-area",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "infotip": {
+    "component": "infotip",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "button",
+      "tooltip"
+    ]
+  },
+  "input": {
+    "component": "input",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "button",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "inline-message",
+      "kbd",
+      "label",
+      "loader",
+      "logo",
+      "text"
+    ]
+  },
+  "alert": {
+    "component": "alert",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "icon",
+      "primary-action",
+      "secondary-action"
+    ]
+  },
+  "anchor": {
+    "component": "anchor",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "color-swatch",
+      "emoji",
+      "file-type",
+      "flag",
+      "icon",
+      "kbd",
+      "loader",
+      "logo"
+    ]
+  },
+  "breadcrumb": {
+    "component": "breadcrumb",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "color-swatch",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "dropdown": {
+    "component": "dropdown",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "button",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "inline-message",
+      "kbd",
+      "label",
+      "loader",
+      "logo",
+      "text"
+    ]
+  },
+  "popover": {
+    "component": "popover",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "surface",
+      "trigger"
+    ]
+  },
+  "segmented-control": {
+    "component": "segmented-control",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "icon"
+    ]
+  },
+  "select": {
+    "component": "select",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "button",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "inline-message",
+      "kbd",
+      "label",
+      "loader",
+      "logo",
+      "text"
+    ]
+  },
+  "tabs": {
+    "component": "tabs",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "accordion": {
+    "component": "accordion",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "icon"
+    ]
+  },
+  "avatar": {
+    "component": "avatar",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "badge": {
+    "component": "badge",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "carousel": {
+    "component": "carousel",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "color-swatch",
+      "emoji",
+      "file-type",
+      "flag",
+      "icon",
+      "kbd",
+      "loader",
+      "logo"
+    ]
+  },
+  "cascader": {
+    "component": "cascader",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "color-picker": {
+    "component": "color-picker",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "color-swatch": {
+    "component": "color-swatch",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "datepicker": {
+    "component": "datepicker",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "drawer": {
+    "component": "drawer",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "button",
+      "icon",
+      "text"
+    ]
+  },
+  "field": {
+    "component": "field",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "inline-message",
+      "label",
+      "text"
+    ]
+  },
+  "gridbox": {
+    "component": "gridbox",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "list": {
+    "component": "list",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "icon"
+    ]
+  },
+  "listbox": {
+    "component": "listbox",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "listbox-item": {
+    "component": "listbox-item",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "menu": {
+    "component": "menu",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "modal": {
+    "component": "modal",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "button",
+      "icon",
+      "text"
+    ]
+  },
+  "pagination": {
+    "component": "pagination",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "button",
+      "icon"
+    ]
+  },
+  "progress": {
+    "component": "progress",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "rating": {
+    "component": "rating",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "icon"
+    ]
+  },
+  "sidebar": {
+    "component": "sidebar",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "slider": {
+    "component": "slider",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35"
+  },
+  "steps": {
+    "component": "steps",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "button",
+      "icon"
+    ]
+  },
+  "textarea": {
+    "component": "textarea",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "inline-message",
+      "label",
+      "text"
+    ]
+  },
+  "toast": {
+    "component": "toast",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "button",
+      "icon"
+    ]
+  },
+  "transfer": {
+    "component": "transfer",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "tree": {
+    "component": "tree",
+    "slotType": "component",
+    "registeredAt": "2026-09-24T13:47:34.229Z",
+    "version": "0.0.35",
+    "supportedSlots": [
+      "avatar",
+      "badge-counter",
+      "badge-dot",
+      "badge-label",
+      "badge-status-indicator",
+      "color-logo",
+      "emoji",
+      "flag",
+      "icon",
+      "loader",
+      "logo"
+    ]
+  },
+  "asset:icons-lucide": {
+    "component": "icons-lucide",
+    "slotType": "icon",
+    "registeredAt": "2026-09-24T16:58:06.835Z",
+    "version": "1.1.14"
+  },
+  "asset:icons-material": {
+    "component": "icons-material",
+    "slotType": "icon",
+    "registeredAt": "2026-09-24T16:58:41.609Z",
+    "version": "1.0.25"
+  },
+  "asset:icons-phosphor": {
+    "component": "icons-phosphor",
+    "slotType": "icon",
+    "registeredAt": "2026-09-24T17:00:01.617Z",
+    "version": "1.0.18"
+  },
+  "asset:material-symbols": {
+    "component": "material-symbols",
+    "slotType": "icon",
+    "registeredAt": "2026-09-24T17:00:44.651Z",
+    "version": "0.0.10"
+  },
+  "asset:illustrations": {
+    "component": "illustrations",
+    "slotType": "illustration",
+    "registeredAt": "2026-09-24T17:02:03.240Z",
+    "version": "1.1.12"
+  },
+  "asset:logos": {
+    "component": "logos",
+    "slotType": "logo",
+    "registeredAt": "2026-09-24T17:02:24.278Z",
+    "version": "1.0.13"
+  },
+  "asset:color-logos": {
+    "component": "color-logos",
+    "slotType": "color-logo",
+    "registeredAt": "2026-09-24T17:02:43.735Z",
+    "version": "1.0.13"
+  },
+  "asset:flags": {
+    "component": "flags",
+    "slotType": "flag",
+    "registeredAt": "2026-09-24T17:03:03.144Z",
+    "version": "1.1.20"
+  },
+  "asset:emoji": {
+    "component": "emoji",
+    "slotType": "emoji",
+    "registeredAt": "2026-09-24T17:04:16.874Z",
+    "version": "1.0.16"
+  },
+  "asset:loaders": {
+    "component": "loaders",
+    "slotType": "loader",
+    "registeredAt": "2026-09-24T17:04:40.113Z",
+    "version": "1.0.17"
+  },
+  "asset:file-types": {
+    "component": "file-types",
+    "slotType": "file-type",
+    "registeredAt": "2026-09-24T17:05:01.929Z",
+    "version": "1.0.13"
+  }
+}

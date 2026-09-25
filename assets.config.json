@@ -1,0 +1,218 @@
+{
+  "binding": "scanned",
+  "preload": "scanned",
+  "illustration": {
+    "library": "storyset",
+    "style": "Amico",
+    "globalIllustrations": {
+      "empty": "amico-empty-hidden"
+    },
+    "placeholder": {
+      "name": "amico-empty-hidden"
+    },
+    "fallback": "amico-empty-hidden"
+  },
+  "logo": {
+    "globalLogos": {
+      "apple": "apple",
+      "gmail": "gmail",
+      "google": "google",
+      "placeholder": "apple",
+      "youtube": "youtube"
+    },
+    "placeholder": {
+      "name": "apple"
+    },
+    "fallback": "apple",
+    "variant": "mono"
+  },
+  "colorLogo": {
+    "globalColorLogos": {
+      "amex": "amex",
+      "chrome": "chrome",
+      "discover": "discover",
+      "google": "google",
+      "mastercard": "mastercard",
+      "placeholder": "google-gmail",
+      "visa": "visa",
+      "youtube": "youtube"
+    },
+    "placeholder": {
+      "name": "google-gmail"
+    },
+    "fallback": "google-gmail",
+    "variant": "color"
+  },
+  "flag": {
+    "library": "flagpack",
+    "globalFlags": {
+      "default": "IN",
+      "us": "US"
+    },
+    "placeholder": {
+      "code": "IN"
+    },
+    "fallback": "US"
+  },
+  "emoji": {
+    "family": "apple",
+    "skinTone": "medium-light",
+    "globalEmojis": {
+      "bust_in_silhouette": "bust_in_silhouette",
+      "credit_card": "credit_card",
+      "envelope": "envelope",
+      "link": "link",
+      "magnifying_glass_tilted_left": "magnifying_glass_tilted_left",
+      "placeholder": "waving_hand"
+    },
+    "placeholder": {
+      "name": "waving_hand"
+    },
+    "fallback": "waving_hand"
+  },
+  "loader": {
+    "library": "ldrs",
+    "name": "ring",
+    "color": "currentColor",
+    "speed": 1,
+    "globalLoaders": {
+      "default": "ring",
+      "spinner": "line-spinner"
+    },
+    "placeholder": {
+      "name": "ring"
+    },
+    "fallback": "ring"
+  },
+  "fileType": {
+    "library": "vscode",
+    "globalFileTypes": {
+      "document": "pdf",
+      "spreadsheet": "excel"
+    },
+    "placeholder": {
+      "extension": "excel"
+    },
+    "fallback": "pdf"
+  },
+  "icon": {
+    "library": "material-symbols",
+    "filled": false,
+    "preload": "scanned",
+    "globalIcons": {
+      "arrowBackIos": "arrow_back_ios",
+      "arrowForwardIos": "arrow_forward_ios",
+      "arrow_drop_down": "arrow_drop_down",
+      "arrow_drop_up": "arrow_drop_up",
+      "arrow_left": "arrow_left",
+      "arrow_right": "arrow_right",
+      "check": "check",
+      "close": "close",
+      "collapse": "arrow_drop_up",
+      "copy": "content_copy",
+      "creditCard": "credit_card",
+      "custom": "wand_shine",
+      "down": "keyboard_arrow_down",
+      "doubleDown": "keyboard_double_arrow_down",
+      "doubleLeft": "keyboard_double_arrow_left",
+      "doubleRight": "keyboard_double_arrow_right",
+      "doubleUp": "keyboard_double_arrow_up",
+      "error": "error",
+      "euro": "euro",
+      "expand": "arrow_drop_down",
+      "eye": "visibility",
+      "eyeOff": "visibility_off",
+      "flag": "flag",
+      "globe": "public",
+      "help": "help",
+      "history": "history",
+      "imageSearch": "image_search",
+      "info": "info",
+      "launch": "rocket_launch",
+      "arrow_forward": "arrow_forward",
+      "barChart": "bar_chart",
+      "bar_chart": "bar_chart",
+      "dollar-sign": "attach_money",
+      "dollar_sign": "attach_money",
+      "message": "chat",
+      "public": "public",
+      "rocketLaunch": "rocket_launch",
+      "tag": "category",
+      "left": "keyboard_arrow_left",
+      "link": "link",
+      "local_mall": "local_mall",
+      "lock": "lock",
+      "lunch_dining": "lunch_dining",
+      "mail": "mail",
+      "menu": "menu",
+      "messageSquare": "chat",
+      "mic": "mic",
+      "minus": "remove",
+      "more_horiz": "more_horiz",
+      "open_in_new": "open_in_new",
+      "pets": "pets",
+      "phone": "call",
+      "plus": "add",
+      "right": "keyboard_arrow_right",
+      "search": "search",
+      "sentiment_dissatisfied": "sentiment_dissatisfied",
+      "sentiment_satisfied": "sentiment_satisfied",
+      "share": "share",
+      "sports_volleyball": "sports_volleyball",
+      "star": "star",
+      "success": "check_circle",
+      "travel": "travel",
+      "up": "keyboard_arrow_up",
+      "user": "person",
+      "warning": "warning",
+      "sync_alt": "sync_alt",
+      "chat_bubble": "chat_bubble",
+      "home": "home",
+      "settings": "settings",
+      "left_panel_close": "left_panel_close",
+      "left_panel_open": "left_panel_open",
+      "alert_triangle": "warning",
+      "trash": "delete",
+      "bell": "notifications",
+      "play": "play_arrow",
+      "grip": "drag_indicator",
+      "log_out": "logout",
+      "logout": "logout",
+      "file": "description",
+      "grid": "grid_view",
+      "external_link": "open_in_new",
+      "chevron_down": "keyboard_arrow_down",
+      "chevron_right": "keyboard_arrow_right",
+      "chevron_left": "chevron_left",
+      "person": "person",
+      "save": "save",
+      "upload": "upload",
+      "more_vert": "more_vert",
+      "today": "today",
+      "keyboard_arrow_down": "keyboard_arrow_down",
+      "keyboard_arrow_up": "keyboard_arrow_up",
+      "bolt": "bolt",
+      "dashboard": "dashboard",
+      "check_circle": "check_circle",
+      "report": "report",
+      "credit_card": "credit_card",
+      "image_search": "image_search",
+      "percent": "percent",
+      "folder": "folder",
+      "folder_open": "folder_open",
+      "files": "files",
+      "more": "more_horiz",
+      "list": "list",
+      "table": "table",
+      "send": "send",
+      "palette": "palette",
+      "language": "language",
+      "notifications": "notifications",
+      "wrapText": "wrap_text"
+    },
+    "placeholder": {
+      "name": "rocket_launch"
+    },
+    "fallback": "help_outline"
+  }
+}

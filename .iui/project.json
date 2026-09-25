@@ -1,0 +1,11 @@
+{
+  "projectId": "RIAIv_DedcwBFN77FfPGY",
+  "repoUrl": "unknown",
+  "createdAt": "2026-09-24T13:47:07.825Z",
+  "initScope": "package",
+  "configs": {
+    "theme": "./iui.config.ts",
+    "assets": "./assets.config.json",
+    "components": "./component.config.ts"
+  }
+}
