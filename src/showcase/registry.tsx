@@ -9,12 +9,12 @@ export type ShowcaseEntry = {
 const modules = import.meta.glob<{ default: ComponentType }>('./examples/*.tsx')
 
 export const COMPONENT_NAMES = [
-  'Kbd', 'Tag', 'Radio', 'Link', 'Text', 'Label', 'Button', 'CheckBox', 'Switch', 'Divider',
-  'InlineMessage', 'Tooltip', 'EmptyState', 'ScrollArea', 'InfoTip', 'Input', 'Alert', 'Anchor',
-  'Breadcrumb', 'Dropdown', 'Popover', 'SegmentedControl', 'Select', 'Tabs', 'Accordion', 'Avatar',
-  'Badge', 'Carousel', 'Cascader', 'ColorPicker', 'ColorSwatch', 'Datepicker', 'Drawer', 'Field',
-  'Gridbox', 'List', 'Listbox', 'ListboxItem', 'Menu', 'Modal', 'Pagination', 'Progress', 'Rating',
-  'SideBar', 'Slider', 'Steps', 'TextArea', 'Toast', 'Transfer', 'Tree',
+  'Accordion', 'Alert', 'Anchor', 'Avatar', 'Badge', 'Breadcrumb', 'Button', 'Carousel', 'Cascader',
+  'CheckBox', 'ColorPicker', 'ColorSwatch', 'Datepicker', 'Divider', 'Drawer', 'Dropdown', 'EmptyState',
+  'Field', 'Gridbox', 'InfoTip', 'InlineMessage', 'Input', 'Kbd', 'Label', 'Link', 'List', 'Listbox',
+  'ListboxItem', 'Menu', 'Modal', 'Pagination', 'Popover', 'Progress', 'Radio', 'Rating', 'ScrollArea',
+  'SegmentedControl', 'Select', 'SideBar', 'Slider', 'Steps', 'Switch', 'Tabs', 'Tag', 'Text',
+  'TextArea', 'Toast', 'Tooltip', 'Transfer', 'Tree',
 ]
 
 export const entries: ShowcaseEntry[] = COMPONENT_NAMES.map((name) => {
