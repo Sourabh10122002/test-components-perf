@@ -12,8 +12,8 @@
   "dependencies": {
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
-    "@inventive-ui/framework": "^1.0.97",
-    "@inventive-ui/components": "^0.0.35",
+    "@inventive-ui/framework": "^1.0.99",
+    "@inventive-ui/components": "^0.0.37",
     "@inventive-ui/icons-lucide": "^1.1.14",
     "@inventive-ui/icons-material": "^1.0.25",
     "@inventive-ui/icons-phosphor": "^1.0.18",
