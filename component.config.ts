@@ -112,30 +112,26 @@ type ComponentConfigMap = {
 export const componentConfig: ComponentConfigMap = {
   Kbd: {
     default: {
-            "variant": "default",
-            "appearance": "subtle"
-      },
+
+    },
   },
 
   Tag: {
     default: {
-            "variant": "outlined",
-            "appearance": "default"
-      },
+
+    },
   },
 
   Radio: {
     default: {
-            "variant": "outline",
-            "appearance": "soft"
-      },
+
+    },
   },
 
   Link: {
     default: {
-            "variant": "ghost",
-            "appearance": "strong"
-      },
+
+    },
   },
 
   Text: {
@@ -148,147 +144,110 @@ export const componentConfig: ComponentConfigMap = {
 
   Button: {
     default: {
-            "variant": "solid",
-            "appearance": "default"
-      },
+
+    },
   },
 
   Checkbox: {
     default: {
-            "variant": "outline",
-            "appearance": "strong"
-      },
+
+    },
   },
 
   Switch: {
     default: {
-            "variant": "solid",
-            "type": "solid",
-            "appearance": "strong",
-            "size": "base",
-            "color": "brand"
-      },
+
+    },
   },
 
   Divider: {
     default: {
-            "orientation": "horizontal"
-      },
+
+    },
   },
 
   InlineMessage: {
     default: {
-            "variant": "info",
-            "size": "base"
-      },
+
+    },
   },
 
   Tooltip: {
     default: {
-            "variant": "solid",
-            "placement": "top"
-      },
+
+    },
   },
 
   Emptystate: {
     default: {
-            "column": "single",
-            "align": "center"
-      },
+
+    },
   },
 
   ScrollArea: {
     default: {
-            "variant": "solid",
-            "size": "base",
-            "appearOn": "hover"
-      },
+
+    },
   },
 
   InfoTip: {
     default: {
-            "variant": "ghost",
-            "appearance": "soft",
-            "trigger": "hover",
-            "placement": "top"
-      },
+
+    },
   },
 
   Input: {
     default: {
-            "variant": "solid",
-            "appearance": "dualTone",
-            "size": "base"
-      },
+
+    },
   },
 
   Alert: {
     default: {
-            "variant": "soft",
-            "appearance": "soft",
-            "size": "base"
-      },
+
+    },
   },
 
   Anchor: {
     default: {
-            "activeStyle": {
-                  "variant": "ghost",
-                  "appearance": "strong",
-                  "color": "brand"
-            },
-            "hoverStyle": {
-                  "variant": "ghost",
-                  "appearance": "strong",
-                  "color": "brand"
-            }
-      },
+
+    },
   },
 
   BreadCrumbs: {
     default: {
-            "variant": "ghost",
-            "separator": "slash",
-            "size": "base"
-      },
+
+    },
   },
 
   Dropdown: {
     default: {
-            "variant": "outline",
-            "appearance": "dualTone",
-            "size": "base"
-      },
+
+    },
   },
 
   Popover: {
     default: {
-            "placement": "bottom"
-      },
+
+    },
   },
 
   SegmentedControl: {
     default: {
-            "size": "base",
-            "orientation": "horizontal"
-      },
+
+    },
   },
 
   Select: {
     default: {
-            "variant": "outline",
-            "appearance": "dualTone",
-            "size": "base"
-      },
+
+    },
   },
 
   Tabs: {
     default: {
-            "variant": "solid",
-            "size": "base",
-            "orientation": "horizontal",
-            "layout": "dynamic"
-      },
+
+    },
   },
 
   Accordion: {
@@ -301,28 +260,6 @@ export const componentConfig: ComponentConfigMap = {
 
   Badge: {
     default: {},
-    presets: {
-            "online": {
-                  "color": "success",
-                  "icon": "@check",
-                  "label": "Online"
-            },
-            "away": {
-                  "color": "warning",
-                  "icon": "@help",
-                  "label": "Away"
-            },
-            "busy": {
-                  "color": "danger",
-                  "icon": "@minus",
-                  "label": "Busy"
-            },
-            "offline": {
-                  "color": "neutral",
-                  "icon": "@close",
-                  "label": "Offline"
-            }
-      },
   },
 
   Carousel: {
@@ -355,10 +292,8 @@ export const componentConfig: ComponentConfigMap = {
 
   Gridbox: {
     default: {
-            "size": "base",
-            "categoryNavLocation": "bottom",
-            "showSearch": true
-      },
+
+    },
   },
 
   List: {
