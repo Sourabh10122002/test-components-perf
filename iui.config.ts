@@ -10,7 +10,7 @@ const config: IUIThemeConfig = {
 
     colors: {
       brand: {
-        set: "#941898",
+        set: "#6366f1",
       },
 
       neutral: {
