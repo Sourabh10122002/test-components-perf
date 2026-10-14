@@ -1,6 +1,6 @@
 // Showcase ported from origin/infotip:src/components/InfoTip/stories/InfoTip.stories.tsx (story "Overview", storyName "Showcase / Overview")
-import { InfoTip } from "@inventive-ui/components/InfoTip";
-import type { InfoTipProps } from "@inventive-ui/components/InfoTip";
+import { Infotip as InfoTip } from "@inventive-ui/components";
+import type { InfotipProps as InfoTipProps } from "@inventive-ui/components";
 import type { SemanticColor } from "@inventive-ui/framework";
 import React from "react";
 import { LazySection } from "../storybook";
@@ -26,7 +26,6 @@ const commonArgs: InfoTipProps = {
   hoverStyle: undefined,
   icon: { type: "icon", name: "@info", filled: false },
   size: "base",
-  toggle: false,
   variant: "ghost",
 };
 
@@ -335,7 +334,6 @@ export default function InfoTipShowcase() {
                         ...(args.tooltip as any),
                         description: `${c} state tooltip`,
                       }}
-                      state={c as any}
                     />
                     <span className="text-xs font-medium text-gray-500 uppercase">
                       {c}
