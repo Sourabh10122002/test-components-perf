@@ -4,6 +4,7 @@ import { Field } from "@inventive-ui/components/Field";
 import type { FieldProps } from "@inventive-ui/components/Field";
 import { SlotRenderer } from "@inventive-ui/framework/slots";
 import { LazySection } from "../storybook";
+import { FieldChildrenExamples } from "../story-helpers/Field/FieldChildrenExamples";
 
 const radiusClasses = {
   none: "rounded-none",
@@ -654,6 +655,11 @@ export default function FieldShowcase() {
             </Field>
           </div>
         </section>
+      </LazySection>
+
+      {/* Added in this app (not part of the ported story) */}
+      <LazySection>
+        <FieldChildrenExamples />
       </LazySection>
     </div>
   );

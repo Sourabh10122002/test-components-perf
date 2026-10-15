@@ -1,11 +1,11 @@
-// Showcase ported from origin/infotip:src/components/InfoTip/stories/InfoTip.stories.tsx (story "Overview", storyName "Showcase / Overview")
-import { Infotip as InfoTip } from "@inventive-ui/components";
-import type { InfotipProps as InfoTipProps } from "@inventive-ui/components";
+// Showcase ported from origin/infotip:src/components/Infotip/stories/Infotip.stories.tsx (story "Overview", storyName "Showcase / Overview")
+import { Infotip } from "@inventive-ui/components";
+import type { InfotipProps } from "@inventive-ui/components";
 import type { SemanticColor } from "@inventive-ui/framework";
 import React from "react";
-import { LazySection } from "../storybook";
+import { LazySection, getStorybookAccentColorKeys } from "../storybook";
 
-type InfoTipStoryArgs = InfoTipProps & {
+type InfotipStoryArgs = InfotipProps & {
   color?: SemanticColor;
   "aria-label"?: string;
   "aria-describedby"?: string;
@@ -14,11 +14,12 @@ type InfoTipStoryArgs = InfoTipProps & {
   style?: React.CSSProperties;
 };
 
-const getColor = (args: InfoTipStoryArgs, globals: any) =>
+const getColor = (args: InfotipStoryArgs, globals: any) =>
   args.color || globals.themeColor;
 
-const commonArgs: InfoTipProps = {
-  adaptive: false,
+const commonArgs: InfotipProps = {
+  adaptive: true,
+  invalid: false,
   appearance: "strong",
   className: "",
   color: undefined,
@@ -29,8 +30,7 @@ const commonArgs: InfoTipProps = {
   variant: "ghost",
 };
 
-// Overview story args
-const overviewArgs = {
+const overviewArgs: InfotipProps = {
     ...commonArgs,
     tooltip: {
       type: "tooltip",
@@ -38,11 +38,11 @@ const overviewArgs = {
       description: "More Information",
       color: "neutral",
     },
-} as InfoTipProps;
+};
 
-export default function InfoTipShowcase() {
-    const globals = {};
-    const args: InfoTipProps = overviewArgs;
+export default function InfotipShowcase() {
+  const globals: Record<string, any> = {};
+  const args: InfotipProps = overviewArgs;
     const color = getColor(args, globals);
 
     return (
@@ -52,7 +52,7 @@ export default function InfoTipShowcase() {
           <section className="space-y-6">
             <div>
               <h2 className="text-2xl font-semibold text-gray-900">
-                InfoTip Basics
+                Infotip Basics
               </h2>
               <p className="text-sm text-gray-600">
                 Simple informational tooltip triggered by an icon
@@ -61,7 +61,7 @@ export default function InfoTipShowcase() {
 
             <div className="flex items-center gap-2">
               <span>Label</span>
-              <InfoTip {...args} color={color} />
+              <Infotip {...args} color={color} />
             </div>
           </section>
         </LazySection>
@@ -79,7 +79,7 @@ export default function InfoTipShowcase() {
             <div className="flex items-center gap-16 p-6">
               {["xs", "sm", "base", "lg", "xl"].map((size) => (
                 <div key={size} className="flex flex-col items-center gap-2">
-                  <InfoTip {...args} size={size as any} color={color} />
+                  <Infotip {...args} size={size as any} color={color} />
                   <span className="text-xs font-medium text-gray-500 uppercase">
                     {size}
                   </span>
@@ -104,7 +104,7 @@ export default function InfoTipShowcase() {
             <div className="flex items-center gap-16 p-6">
               {["@info", "@error", "@help"].map((icon) => (
                 <div key={icon} className="flex flex-col items-center gap-2">
-                  <InfoTip
+                  <Infotip
                     {...args}
                     icon={{ type: "icon", name: icon, filled: false }}
                     color={color}
@@ -157,7 +157,7 @@ export default function InfoTipShowcase() {
                         key={`${appearance}-${variant}`}
                         className="flex justify-center"
                       >
-                        <InfoTip
+                        <Infotip
                           {...args}
                           appearance={appearance as any}
                           variant={variant as any}
@@ -211,7 +211,7 @@ export default function InfoTipShowcase() {
                         key={`${appearance}-${variant}`}
                         className="flex justify-center"
                       >
-                        <InfoTip
+                        <Infotip
                           {...args}
                           hoverStyle={{
                             appearance: appearance as any,
@@ -259,7 +259,7 @@ export default function InfoTipShowcase() {
                   key={placement}
                   className="flex flex-col items-center gap-2"
                 >
-                  <InfoTip
+                  <Infotip
                     {...args}
                     hoverStyle={{
                       variant: "solid",
@@ -296,7 +296,7 @@ export default function InfoTipShowcase() {
             <div className="flex items-center p-6 gap-16">
               {["click", "hover"].map((trigger) => (
                 <div key={trigger} className="flex flex-col items-center gap-2">
-                  <InfoTip
+                  <Infotip
                     {...args}
                     tooltip={{
                       ...(args.tooltip as any),
@@ -314,33 +314,90 @@ export default function InfoTipShowcase() {
           </section>
         </LazySection>
 
-        {/* ================= states ================= */}
+        {/* ================= COLOR PALETTE ================= */}
         <LazySection>
           <section className="space-y-6">
             <div>
-              <h2 className="text-2xl font-semibold text-gray-900">States</h2>
+              <h2 className="text-2xl font-semibold text-gray-900">
+                Color Palette
+              </h2>
               <p className="text-sm text-gray-600">
-                Semantic states for feedback and emphasis
+                Explore the semantic and configured accent colors available for
+                the Infotip trigger.
               </p>
             </div>
 
-            <div className="flex items-center gap-16 p-6">
-              {["brand", "success", "warning", "error", "info", "neutral"].map(
-                (c) => (
-                  <div key={c} className="flex flex-col items-center gap-2">
-                    <InfoTip
-                      {...args}
-                      tooltip={{
-                        ...(args.tooltip as any),
-                        description: `${c} state tooltip`,
-                      }}
-                    />
-                    <span className="text-xs font-medium text-gray-500 uppercase">
-                      {c}
-                    </span>
-                  </div>
-                ),
-              )}
+            <div className="space-y-10">
+              {/* Semantic Roles */}
+              <div className="space-y-4">
+                <h3 className="text-lg font-semibold text-neutral-800 dark:text-neutral-100 border-b border-neutral-200 dark:border-neutral-700 pb-2">
+                  Semantic Roles
+                </h3>
+
+                <div className="flex flex-wrap items-center gap-6">
+                  {[
+                    "brand",
+                    "neutral",
+                    "success",
+                    "warning",
+                    "danger",
+                    "info",
+                  ].map((color) => (
+                    <div
+                      key={color}
+                      className="flex flex-col items-center gap-2"
+                    >
+                      <Infotip
+                        {...args}
+                        color={color as any}
+                        invalid={false}
+                        aria-label={`${color} information`}
+                        tooltip={{
+                          ...(args.tooltip as any),
+                          title: `${color.charAt(0).toUpperCase() + color.slice(1)} color`,
+                          description: `Infotip using the ${color} semantic color.`,
+                        }}
+                      />
+
+                      <span className="text-xs font-medium text-gray-500">
+                        {color.charAt(0).toUpperCase() + color.slice(1)}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              {/* Accent Colors */}
+              <div className="space-y-4">
+                <h3 className="text-lg font-semibold text-neutral-800 dark:text-neutral-100 border-b border-neutral-200 dark:border-neutral-700 pb-2">
+                  Accent Colors
+                </h3>
+
+                <div className="flex flex-wrap items-center gap-6">
+                  {getStorybookAccentColorKeys().map((color: string) => (
+                    <div
+                      key={color}
+                      className="flex flex-col items-center gap-2"
+                    >
+                      <Infotip
+                        {...args}
+                        color={color as any}
+                        invalid={false}
+                        aria-label={`${color} information`}
+                        tooltip={{
+                          ...(args.tooltip as any),
+                          title: `${color.charAt(0).toUpperCase() + color.slice(1)} color`,
+                          description: `Infotip using the ${color} accent color.`,
+                        }}
+                      />
+
+                      <span className="text-xs font-medium text-gray-500">
+                        {color.charAt(0).toUpperCase() + color.slice(1)}
+                      </span>
+                    </div>
+                  ))}
+                </div>
+              </div>
             </div>
           </section>
         </LazySection>
@@ -358,7 +415,7 @@ export default function InfoTipShowcase() {
             </div>
 
             <div className="flex items-center gap-6 p-4">
-              <InfoTip {...args} disabled />
+              <Infotip {...args} disabled />
             </div>
           </section>
         </LazySection>
@@ -371,7 +428,7 @@ export default function InfoTipShowcase() {
                 Light & Dark Mode
               </h2>
               <p className="text-sm text-gray-600">
-                InfoTip appearance in light and dark themes
+                Infotip appearance in light and dark themes
               </p>
             </div>
 
@@ -382,7 +439,7 @@ export default function InfoTipShowcase() {
                   Light Mode
                 </span>
 
-                <InfoTip
+                <Infotip
                   {...args}
                   variant="solid"
                   hoverStyle={{
@@ -409,7 +466,7 @@ export default function InfoTipShowcase() {
                       adaptive: false
                     </span>
 
-                    <InfoTip
+                    <Infotip
                       {...args}
                       adaptive={false}
                       variant="solid"
@@ -430,7 +487,7 @@ export default function InfoTipShowcase() {
                       adaptive: true
                     </span>
 
-                    <InfoTip
+                    <Infotip
                       {...args}
                       adaptive={true}
                       variant="solid"
@@ -458,22 +515,22 @@ export default function InfoTipShowcase() {
                 Custom Styling
               </h3>
               <p className="text-sm text-gray-600">
-                Demonstrates how InfoTip can be visually customized using
+                Demonstrates how Infotip can be visually customized using
                 className.
               </p>
             </div>
 
             <div className="flex items-center gap-4 border rounded-lg p-6 bg-gray-100">
               <span className="text-sm font-medium text-gray-800">
-                Styled InfoTip
+                Styled Infotip
               </span>
 
-              <InfoTip
+              <Infotip
                 {...args}
                 className="p-2 bg-blue-100 rounded-full shadow-md transition-transform duration-200 hover:scale-110"
                 tooltip={{
                   ...(args.tooltip as any),
-                  description: "Custom styled InfoTip trigger",
+                  description: "Custom styled Infotip trigger",
                 }}
               />
             </div>
